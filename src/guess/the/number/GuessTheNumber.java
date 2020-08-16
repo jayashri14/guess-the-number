@@ -10,8 +10,7 @@ import java.util.*;
 public class GuessTheNumber 
 {
     public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
-        Random rndm_method = new Random(); 
+        Scanner sc=new Scanner(System.in); 
         double n,snum;
         n=(Math.random()*99999);
         long a=Math.round(n);
